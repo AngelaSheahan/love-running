@@ -58,9 +58,26 @@ h1, h2 {
 
 /* hero image */
 
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image.webp') no-repeat center center;
+    background: url('../../images/hero-image.webp')
 }
 
+/* creates the level of zoom for hero image*/
+@keyframes hero-zone {
+    from {
+        transform: scale(1);
+
+    }
+    to {
+        transform: scale(1.1);
+
+    }
+}
