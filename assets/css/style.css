@@ -112,9 +112,9 @@ h1, h2 {
     right: 150px;
 
     position: absolute;
-
 }
-/* Club Ethos /*
+
+/* Club Ethos */
 
 #club-ethos {
     height: 600px;
@@ -125,7 +125,6 @@ h1, h2 {
     width: 33%;
     float: left;
     background-color: blue;
-
 }
 
 #right-about {
@@ -139,6 +138,4 @@ h1, h2 {
     width: 33%;
     margin: 0 auto;
     background-color: green;
-
-    
-
+}
