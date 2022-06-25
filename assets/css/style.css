@@ -135,8 +135,15 @@ h1, h2 {
 #center-about {
     width: 33%;
     margin: 0 auto;
-
 }
+
+#times > div {
+    width: 100%;
+    clear: both;
+    height: 150px;
+    padding: 0;
+}
+
 
 hr {
     margin-bottom: 1px solid #3a3a33;
@@ -287,12 +294,12 @@ footer {
     /* For medium screen sizes from 950px wide and down */
 
     @media screen and (max-width:950px) {
-        /* #menu {
+        #menu {
            clear: left; 
            float: left;
            margin-left: 30px;
            margin-bottom: 20px;
-           line-height: 25px; */
+           line-height: 25px;
         }
         #cover-text {
            left: 0; 
